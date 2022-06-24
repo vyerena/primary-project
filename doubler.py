@@ -1,3 +1,5 @@
-def int (num):
-    print(num * 2)
-int('5')	
+def func(a,b):
+    x = a * b
+    return x
+x = func(5, 2)
+print (x)
