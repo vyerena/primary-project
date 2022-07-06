@@ -1,8 +1,14 @@
-def func(a,b):
-    x = a * b
-    return x
-x = func(5, 2)
-print (x)
+number = int(input("Input number \n"))
 
-if not type (x) is int:
-	raise TypeError("only function allowed")
+double = number * 2
+
+print(double)
+
+while True:
+    try:
+        n = input("Input number \n")
+        n = int(n)
+        break
+    except ValueError:
+        print("Not a valid integer!")
+
